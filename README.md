@@ -4,3 +4,4 @@
 
 I enjoyed the animations of jQuery so much, I had to use them again!
 
+![](hot coffee.gif)
