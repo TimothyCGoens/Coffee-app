@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css"></link>
+</head>
+
+<body id="main">
+  <h1 id="head">Welcome to Hot Coffee</h1>
+  <h2 id="subHead">It's definitely <i>not</i> cold</h2>
+
+<div id="buttons">
+  <div id="interface">
+    <button id="allOrders">View All Orders</button>
+
+    <div id="order">
+      <input type="text" id="orderEmails" placeholder="enter email"></input>
+      <input type="text" id="coffeeOrder" placeholder="enter coffee"></input>
+      <button id="newOrder">Create New Order</button>
+    </div>
+
+    <div id="find">
+      <input type="text" id="findViaEmail" placeholder="enter email"></input>
+      <button id="findOrder">Find Order</button>
+      <button id="deleteOrder">Delete Order</button>
+    </div>
+  </div>
+
+<div id="viewAllOrders">
+<div class="orders">
+  <h2 class="currentOrders">Current Orders</h2>
+  <ul id='displayAllOrders'>
+    </ul>
+  </div>
+
+  <div class="orders">
+    <h2 class="currentOrders">Found Orders</h2>
+    <ul id="foundOrders">
+    </ul>
+</div>
+</div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</html>

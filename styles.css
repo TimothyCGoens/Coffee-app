@@ -1,0 +1,86 @@
+#main {
+  background-color: #522504;
+  display: flex;
+  flex-direction: column;
+}
+
+#buttons {
+  display: flex;
+}
+#interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+#order {
+  display: flex;
+  flex-direction: column;
+}
+#find {
+  display: flex;
+  flex-direction: column;
+}
+h1, h2 {
+  text-align: center;
+}
+h1 {
+  margin-top: 5px;
+  background-color: #d26924;
+  margin-bottom: 0px;
+}
+#subHead {
+  background-color: #e6a47c;
+  margin-top: 7px;
+}
+button {
+  height: 30px;
+  width: 150px;
+  background-color: #986f54;
+  border-color: #381c0a;
+  outline: none;
+}
+li {
+  list-style: none;
+  background-color: #a26d4c;
+  margin-bottom: 5px;
+  border: solid .5px black;
+  padding: 4px;
+}
+input {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-color: #381c0a;
+}
+/* .orders {
+  background-color: #693e22;
+  border: 1px solid #3a261a;
+} */
+#displayAllOrders {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding: 5px;
+  margin-right: 15px;
+}
+#foundOrders {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding: 5px;
+  margin-right: 15px;
+}
+#viewAllOrders {
+  display: flex;
+  width: 50%;
+}
+#allOrders {
+  margin-bottom: 30px;
+}
+#newOrder {
+  margin-bottom: 30px;
+}
+.currentOrders {
+  background-color: #a74000;
+  padding: 5px;
+  margin-right: 15px;
+}
